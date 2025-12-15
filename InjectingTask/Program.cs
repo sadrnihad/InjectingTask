@@ -12,7 +12,7 @@ namespace InjectingTask
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=home}/{action=blog}"
+                pattern: "{controller=home}/{action=index}"
             );
 
 
