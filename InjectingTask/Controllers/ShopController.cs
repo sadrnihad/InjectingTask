@@ -1,14 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace InjectingTask.Controllers
+namespace ProniaA.Controllers
 {
     public class ShopController : Controller
     {
         public IActionResult Index()
         {
+
             return View();
         }
-        public IActionResult Wishlist()
+        public IActionResult wishlist()
         {
             return View();
         }

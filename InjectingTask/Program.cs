@@ -1,4 +1,4 @@
-namespace InjectingTask
+namespace ProniaA
 {
     public class Program
     {
@@ -7,12 +7,11 @@ namespace InjectingTask
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
             var app = builder.Build();
-
             app.UseStaticFiles();
-
-            app.MapControllerRoute(
+            app.MapControllerRoute
+            (
                 name: "default",
-                pattern: "{controller=home}/{action=index}"
+                pattern: "{controller=Home}/{action=Index}/{id?}"
             );
 
 

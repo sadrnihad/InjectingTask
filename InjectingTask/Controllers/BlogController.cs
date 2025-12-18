@@ -8,5 +8,10 @@ namespace InjectingTask.Controllers
         {
             return View();
         }
+
+        public IActionResult blog()
+        {
+            return View();
+        }
     }
 }
