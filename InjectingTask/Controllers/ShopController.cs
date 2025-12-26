@@ -1,19 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ProniaA.Controllers
+namespace MVCProniaApp.Controllers
 {
     public class ShopController : Controller
     {
         public IActionResult Index()
         {
-
             return View();
         }
-        public IActionResult wishlist()
+        public IActionResult SinglePageDetail()
         {
             return View();
         }
-        public IActionResult SinglePage()
+        public IActionResult Wishlist()
         {
             return View();
         }

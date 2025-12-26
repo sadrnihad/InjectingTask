@@ -1,12 +1,11 @@
-﻿using ProniaA.Models;
+﻿using MVCProniaApp.Models;
 
-
-namespace ProniaA.ViewModels
+namespace MVCProniaApp.ViewModels
 {
     public class HomeVM
     {
-        public List<Slide> Slides { get; set; }
-        public List<Product> Products { get; set; }
-        public List<Blog> Blogs { get; set; }
+        public List<Slide>? Slides { get; set; }
+        public List<Product>? Products { get; set; }
+        public List<Blog>? Blogs { get; set; }
     }
 }

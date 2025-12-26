@@ -1,15 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace InjectingTask.Controllers
+namespace MVCProniaApp.Controllers
 {
     public class BlogController : Controller
     {
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult blog()
         {
             return View();
         }
